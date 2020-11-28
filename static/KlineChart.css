@@ -1,0 +1,67 @@
+#library-container {
+	border:none;
+	box-sizing: border-box;
+}
+.tv-side-toolbar {
+	background-color: #272935;
+	border-right: none;
+}
+.tv-close-panel {
+	background-color: #474b57;
+	border: none;
+}
+.tv-side-toolbar .tv-close-panel {
+	margin-left: 0;
+}
+.tv-side-toolbar.hidden .tv-close-panel {
+	left: 0;
+}
+.header-chart-panel .button{
+	background: transparent;
+	border: none;
+	color: #fff;
+}
+.chart-page .chart-container {
+	border: none;
+	height: 100%!important;
+    top: 0!important;
+    left: 0!important;
+	width: 100%!important;
+	margin-top: 40px;
+}
+.onchart-tv-logo .wrapper, .onchart-tv-logo .inner {
+	background-color: transparent !important;
+}
+.button.properties svg,.button.indicators svg,.button.fullscreen svg {
+	fill: #7c88a0;
+  width: 14px;
+  height: 14px;
+}
+.header-chart-panel .interval{
+	margin-left: 10px;
+}
+.header-chart-panel .group:nth-of-type(3) {
+	float: right;
+}
+.header-chart-panel .group:nth-of-type(2) {
+	float: left;
+	margin-left: 335px;
+}
+/*.header-chart-panel .group:nth-of-type(1) {
+	float: left;
+	margin-left: 465px;
+}*/
+._tv-dialog-content .alert-dialog-content, ._tv-dialog-content .main-properties {
+	padding: 0 10px;
+}
+.favored-list-container span {
+	background-color: #272935;
+	border: 1px solid #272935;
+	color: #7c88a0;
+}
+.favored-list-container span.submenu {
+	display: none;
+}
+.loading-indicator {
+	background-color: transparent;
+}

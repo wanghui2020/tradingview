@@ -1,0 +1,8 @@
+.header-chart-panel,.tv-side-toolbar{background-color:#ffffff!important}
+.tv-close-panel{border: 1px solid #dddddd;background-color: transparent;}
+.interval-active{background: #f1f4f8!important;color:#2d60e0!important;}
+.interval-single ul li{background:#f1f4f8;color:#2d60e0;}
+.interval-single ul li:hover{background:#ddd}
+.header-chart-panel .interval .interval-single:active, .header-chart-panel .interval .interval-single:focus, .header-chart-panel .interval .interval-single:hover{background:#ddd}
+.header-chart-panel .left .group .button:hover, .symbol-edit-widget .button:hover{background-color:#ddd;}
+.header-chart-panel .button.active,.header-chart-panel .button.active:hover{background:#ddd!important}
